@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 using System.Collections;
 
 public class xxx:MonoBehavior(){
-
+	public Dropdown myDropdown;
 	void Start(){
 
 		myDropDown.onValueChanged.AddListener(delegate {myDropDownValueChangedHandler(myDropDown)});
